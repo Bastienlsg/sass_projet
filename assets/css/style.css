@@ -1,0 +1,47 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.disp-f {
+  display: flex;
+}
+
+.j-c-c {
+  justify-content: center;
+}
+
+.al-c {
+  align-items: center;
+}
+
+.f-end {
+  justify-content: flex-end;
+}
+
+.mg-2vw {
+  margin: 2vw;
+}
+
+.w-75-h-50px {
+  width: 75px;
+  height: 50px;
+}
+
+.b-rad-5px {
+  border-radius: 5px;
+}
+
+.grey-color {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.burger-icon span {
+  display: block;
+  margin: 5px 0;
+  width: 25px;
+  height: 2px;
+  border-radius: 5px;
+  background-color: #3d3d3d;
+}
+
+/*# sourceMappingURL=style.css.map */
