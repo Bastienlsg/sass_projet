@@ -6,6 +6,10 @@ body {
   display: flex;
 }
 
+.disp-none {
+  display: none;
+}
+
 .j-c-c {
   justify-content: center;
 }
@@ -26,8 +30,16 @@ body {
   margin: 10vh 0;
 }
 
+.mg-t-5vh {
+  margin-top: 5vh;
+}
+
 .w-90vw {
   width: 90vw;
+}
+
+.h-90vw {
+  height: 90vw;
 }
 
 .f-d-col {
@@ -40,6 +52,10 @@ body {
 
 .mg-0 {
   margin: 0;
+}
+
+.mg-b-5vw {
+  margin-bottom: 5vw;
 }
 
 .f-s-35px {
@@ -67,12 +83,25 @@ body {
   letter-spacing: 10px;
 }
 
+.w-100pc {
+  width: 100%;
+}
+
+.h-100pc {
+  height: 100%;
+}
+
 .p-fixed {
   position: fixed;
+  z-index: 1;
 }
 
 .p-relative {
   position: relative;
+}
+
+.p-absolute {
+  position: absolute;
 }
 
 .mg-r-10px {
@@ -83,6 +112,14 @@ body {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+.bg-grey {
+  background-color: #f6f6f6;
+}
+
+.ls-s-none {
+  list-style: none;
+}
+
 .burger-icon span {
   display: block;
   margin: 5px 0;
@@ -90,6 +127,228 @@ body {
   height: 2px;
   border-radius: 5px;
   background-color: #3d3d3d;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
+
+.apparition-txt > a > div > .text {
+  display: none;
+}
+
+.apparition-txt:hover > a > div > .text {
+  display: block;
+}
+
+.computer-background {
+  background-image: url("../medias/images/pic01.jpg");
+  background-size: cover;
+}
+
+.pink-filter {
+  background-color: #f2849e;
+}
+
+.apparition-filter > .pink-filter {
+  opacity: 0.75;
+}
+
+.apparition-filter > .pink-filter:hover {
+  opacity: 0;
+}
+
+.wave-background {
+  background-image: url("../medias/images/pic02.jpg");
+  background-size: cover;
+}
+
+.blue-cyan-filter {
+  background-color: #7ecaf6;
+}
+
+.apparition-filter > .blue-cyan-filter {
+  opacity: 0.75;
+}
+
+.apparition-filter > .blue-cyan-filter:hover {
+  opacity: 0;
+}
+
+.station-background {
+  background-image: url("../medias/images/pic03.jpg");
+  background-size: cover;
+}
+
+.green-filter {
+  background-color: #7bd0c1;
+}
+
+.apparition-filter > .green-filter {
+  opacity: 0.75;
+}
+
+.apparition-filter > .green-filter:hover {
+  opacity: 0;
+}
+
+.man-background {
+  background-image: url("../medias/images/pic04.jpg");
+  background-size: cover;
+}
+
+.pink-darker-filter {
+  background-color: #c75b9b;
+}
+
+.apparition-filter > .pink-darker-filter {
+  opacity: 0.75;
+}
+
+.apparition-filter > .pink-darker-filter:hover {
+  opacity: 0;
+}
+
+.plant-background {
+  background-image: url("../medias/images/pic05.jpg");
+  background-size: cover;
+}
+
+.purple-filter {
+  background-color: #ae85ca;
+}
+
+.apparition-filter > .purple-filter {
+  opacity: 0.75;
+}
+
+.apparition-filter > .purple-filter:hover {
+  opacity: 0;
+}
+
+.mountain-background {
+  background-image: url("../medias/images/pic06.jpg");
+  background-size: cover;
+}
+
+.blue-darker-filter {
+  background-color: #8499e7;
+}
+
+.apparition-filter > .blue-darker-filter {
+  opacity: 0.75;
+}
+
+.apparition-filter > .blue-darker-filter:hover {
+  opacity: 0;
+}
+
+.objects-background {
+  background-image: url("../medias/images/pic07.jpg");
+  background-size: cover;
+}
+
+.blue-cyan-filter {
+  background-color: #7ecaf6;
+}
+
+.city-background {
+  background-image: url("../medias/images/pic08.jpg");
+  background-size: cover;
+}
+
+.green-filter {
+  background-color: #7bd0c1;
+}
+
+.mont-background {
+  background-image: url("../medias/images/pic09.jpg");
+  background-size: cover;
+}
+
+.pink-filter {
+  background-color: #f2849e;
+}
+
+.farm-background {
+  background-image: url("../medias/images/pic10.jpg");
+  background-size: cover;
+}
+
+.purple-filter {
+  background-color: #ae85ca;
+}
+
+.woman-background {
+  background-image: url("../medias/images/pic11.jpg");
+  background-size: cover;
+}
+
+.f-wrap-wrap {
+  flex-wrap: wrap;
+}
+
+.pad-0 {
+  padding: 0;
+}
+
+.gap-30px {
+  gap: 30px;
+}
+
+.social-net-box {
+  border: 1px solid grey;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.blue-darker-filter {
+  background-color: #8499e7;
+}
+
+.mansky-background {
+  background-image: url("../medias/images/pic12.jpg");
+  background-size: cover;
+}
+
+.pink-darker-filter {
+  background-color: #c75b9b;
+}
+
+.txt-al-c {
+  text-align: center;
+}
+
+.txt-decoration {
+  text-decoration: none;
+  color: white;
+}
+
+.w-dsktp {
+  width: 90vw;
+}
+
+@media screen and (min-width: 830px) {
+  .h-90vw {
+    height: 25vw;
+  }
+  .w-dsktp {
+    width: 25vw;
+  }
+  .f-d-dsktp {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .gap-5vw {
+    gap: 5vw;
+  }
+  .mg-b-5vw {
+    margin: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
