@@ -22,6 +22,30 @@ body {
   margin: 2vw;
 }
 
+.mg-tb-10vh {
+  margin: 10vh 0;
+}
+
+.w-90vw {
+  width: 90vw;
+}
+
+.f-d-col {
+  flex-direction: column;
+}
+
+.line-h-30px {
+  line-height: 30px;
+}
+
+.mg-0 {
+  margin: 0;
+}
+
+.f-s-35px {
+  font-size: 35px;
+}
+
 .w-75-h-50px {
   width: 75px;
   height: 50px;
@@ -29,6 +53,30 @@ body {
 
 .b-rad-5px {
   border-radius: 5px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.f-weight-600 {
+  font-weight: 600;
+}
+
+.l-sp-10px {
+  letter-spacing: 10px;
+}
+
+.p-fixed {
+  position: fixed;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.mg-r-10px {
+  margin-right: 10px;
 }
 
 .grey-color {
