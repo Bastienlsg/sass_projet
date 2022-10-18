@@ -17,6 +17,10 @@ body {
   justify-content: center;
 }
 
+.j-sp-ard {
+  justify-content: space-around;
+}
+
 .al-c {
   align-items: center;
 }
@@ -47,6 +51,10 @@ body {
 
 .f-d-col {
   flex-direction: column;
+}
+
+.f-d-col-r {
+  flex-direction: column-reverse;
 }
 
 .line-h-30px {
@@ -337,6 +345,29 @@ body {
   width: 90vw;
 }
 
+.input-d, .textarea-d {
+  background-color: #f6f6f6;;
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  border:none;
+  border-bottom:1px solid #757575;
+}
+
+.input-d:focus, .textarea-d:focus { 
+  outline:none;
+}
+
+.btn {
+  width: 90vw;
+  text-align: center;
+  border: none;
+  background-color: $dark-color;
+  font-weight: 900;
+  color: white;
+  padding: 15px;
+}
+
 @media screen and (min-width: 830px) {
   
   .h-90vw {
@@ -358,5 +389,10 @@ body {
 
   .mg-b-5vw {
     margin: 0;
+  }
+
+  .btn {
+    width: 10vw;
+    margin-top: 5vh;
   }
 }
