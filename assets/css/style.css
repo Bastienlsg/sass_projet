@@ -18,32 +18,12 @@ body {
   justify-content: space-around;
 }
 
-.al-c {
-  align-items: center;
-}
-
 .f-end {
   justify-content: flex-end;
 }
 
-.mg-2vw {
-  margin: 2vw;
-}
-
-.mg-tb-10vh {
-  margin: 10vh 0;
-}
-
-.mg-t-5vh {
-  margin-top: 5vh;
-}
-
-.w-90vw {
-  width: 90vw;
-}
-
-.h-90vw {
-  height: 90vw;
+.al-c {
+  align-items: center;
 }
 
 .f-d-col {
@@ -54,49 +34,12 @@ body {
   flex-direction: column-reverse;
 }
 
-.line-h-30px {
-  line-height: 30px;
+.f-wrap-wrap {
+  flex-wrap: wrap;
 }
 
-.mg-0 {
-  margin: 0;
-}
-
-.mg-b-5vw {
-  margin-bottom: 5vw;
-}
-
-.f-s-35px {
-  font-size: 35px;
-}
-
-.w-75-h-50px {
-  width: 75px;
-  height: 50px;
-}
-
-.b-rad-5px {
-  border-radius: 5px;
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-.f-weight-600 {
-  font-weight: 600;
-}
-
-.l-sp-10px {
-  letter-spacing: 10px;
-}
-
-.w-100pc {
-  width: 100%;
-}
-
-.h-100pc {
-  height: 100%;
+.gap-30px {
+  gap: 30px;
 }
 
 .p-fixed {
@@ -112,15 +55,88 @@ body {
   position: absolute;
 }
 
+.mg-2vw {
+  margin: 2vw;
+}
+
+.mg-tb-10vh {
+  margin: 10vh 0;
+}
+
+.mg-t-5vh {
+  margin-top: 5vh;
+}
+
+.mg-b-5vw {
+  margin-bottom: 5vw;
+}
+
+.mg-0 {
+  margin: 0;
+}
+
 .mg-r-10px {
   margin-right: 10px;
 }
 
-.grey-color {
-  background-color: rgba(255, 255, 255, 0.5);
+.pad-0 {
+  padding: 0;
+}
+
+.w-90vw {
+  width: 90vw;
+}
+
+.w-100pc {
+  width: 100%;
+}
+
+.w-dsktp {
+  width: 90vw;
+}
+
+.h-90vw {
+  height: 90vw;
+}
+
+.h-100pc {
+  height: 100%;
+}
+
+.w-75-h-50px {
+  width: 75px;
+  height: 50px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.line-h-30px {
+  line-height: 30px;
+}
+
+.f-s-35px {
+  font-size: 35px;
+}
+
+.f-weight-600 {
+  font-weight: 600;
+}
+
+.l-sp-10px {
+  letter-spacing: 10px;
+}
+
+.b-rad-5px {
+  border-radius: 5px;
 }
 
 .bg-grey {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.bg-grey-clear {
   background-color: #f6f6f6;
 }
 
@@ -296,18 +312,6 @@ body {
   background-size: cover;
 }
 
-.f-wrap-wrap {
-  flex-wrap: wrap;
-}
-
-.pad-0 {
-  padding: 0;
-}
-
-.gap-30px {
-  gap: 30px;
-}
-
 .social-net-box {
   border: 1px solid grey;
   border-radius: 2px;
@@ -336,12 +340,7 @@ body {
   color: white;
 }
 
-.w-dsktp {
-  width: 90vw;
-}
-
 .input-d, .textarea-d {
-  background-color: #f6f6f6;
   font-size: 18px;
   padding: 10px 10px 10px 5px;
   display: block;
