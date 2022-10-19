@@ -153,20 +153,30 @@
   }
 }
 
-.grow { 
-  transition: all .2s ease-in-out; 
-}
-  
-.grow:hover { 
-  transform: scale(1.1); 
-}
-
-.apparition-txt > a > div > .text {
-  display: none;
+.grow {
+	transition: all .2s ease-in-out;
+	&:hover {
+		transform: scale(1.1);
+	}
 }
 
-.apparition-txt:hover > a > div > .text {
-  display: block;
+.apparition-txt {
+	& > a {
+		& > div {
+			& > .text {
+				display: none;
+			}
+		}
+	}
+	&:hover {
+		& > a {
+			& > div {
+				& > .text {
+					display: block;
+				}
+			}
+		}
+	}
 }
 
 .computer-background {
@@ -178,12 +188,13 @@
   background-color: #f2849e;
 }
 
-.apparition-filter > .pink-filter {
-  opacity: 0.75;
-}
-
-.apparition-filter > .pink-filter:hover {
-  opacity: 0;
+.apparition-filter {
+	& > .pink-filter {
+		opacity: 0.75;
+		&:hover {
+			opacity: 0;
+		}
+	}
 }
 
 .wave-background {
@@ -195,12 +206,13 @@
   background-color: #7ecaf6;
 }
 
-.apparition-filter > .blue-cyan-filter {
-  opacity: 0.75;
-}
-
-.apparition-filter > .blue-cyan-filter:hover {
-  opacity: 0;
+.apparition-filter {
+	& > .blue-cyan-filter {
+		opacity: 0.75;
+		&:hover {
+			opacity: 0;
+		}
+	}
 }
 
 .station-background {
@@ -212,12 +224,13 @@
   background-color: #7bd0c1;
 }
 
-.apparition-filter > .green-filter {
-  opacity: 0.75;
-}
-
-.apparition-filter > .green-filter:hover {
-  opacity: 0;
+.apparition-filter {
+	& > .green-filter {
+		opacity: 0.75;
+		&:hover {
+			opacity: 0;
+		}
+	}
 }
 
 .man-background {
@@ -229,12 +242,13 @@
   background-color: #c75b9b;
 }
 
-.apparition-filter > .pink-darker-filter {
-  opacity: 0.75;
-}
-
-.apparition-filter > .pink-darker-filter:hover {
-  opacity: 0;
+.apparition-filter {
+	& > .pink-darker-filter {
+		opacity: 0.75;
+		&:hover {
+			opacity: 0;
+		}
+	}
 }
 
 .plant-background {
@@ -246,12 +260,13 @@
   background-color: #ae85ca;
 }
 
-.apparition-filter > .purple-filter {
-  opacity: 0.75;
-}
-
-.apparition-filter > .purple-filter:hover {
-  opacity: 0;
+.apparition-filter {
+	& > .purple-filter {
+		opacity: 0.75;
+		&:hover {
+			opacity: 0;
+		}
+	}
 }
 
 .mountain-background {
@@ -263,12 +278,13 @@
   background-color: #8499e7;
 }
 
-.apparition-filter > .blue-darker-filter {
-  opacity: 0.75;
-}
-
-.apparition-filter > .blue-darker-filter:hover {
-  opacity: 0;
+.apparition-filter {
+	& > .blue-darker-filter {
+		opacity: 0.75;
+		&:hover {
+			opacity: 0;
+		}
+	}
 }
 
 .objects-background {

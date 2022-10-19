@@ -156,7 +156,6 @@ body {
 .grow {
   transition: all 0.2s ease-in-out;
 }
-
 .grow:hover {
   transform: scale(1.1);
 }
@@ -164,7 +163,6 @@ body {
 .apparition-txt > a > div > .text {
   display: none;
 }
-
 .apparition-txt:hover > a > div > .text {
   display: block;
 }
@@ -181,7 +179,6 @@ body {
 .apparition-filter > .pink-filter {
   opacity: 0.75;
 }
-
 .apparition-filter > .pink-filter:hover {
   opacity: 0;
 }
@@ -198,7 +195,6 @@ body {
 .apparition-filter > .blue-cyan-filter {
   opacity: 0.75;
 }
-
 .apparition-filter > .blue-cyan-filter:hover {
   opacity: 0;
 }
@@ -215,7 +211,6 @@ body {
 .apparition-filter > .green-filter {
   opacity: 0.75;
 }
-
 .apparition-filter > .green-filter:hover {
   opacity: 0;
 }
@@ -232,7 +227,6 @@ body {
 .apparition-filter > .pink-darker-filter {
   opacity: 0.75;
 }
-
 .apparition-filter > .pink-darker-filter:hover {
   opacity: 0;
 }
@@ -249,7 +243,6 @@ body {
 .apparition-filter > .purple-filter {
   opacity: 0.75;
 }
-
 .apparition-filter > .purple-filter:hover {
   opacity: 0;
 }
@@ -266,7 +259,6 @@ body {
 .apparition-filter > .blue-darker-filter {
   opacity: 0.75;
 }
-
 .apparition-filter > .blue-darker-filter:hover {
   opacity: 0;
 }
