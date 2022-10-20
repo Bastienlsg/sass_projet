@@ -1,0 +1,77 @@
+.pink-filter {
+    background-color: #f2849e;
+}
+  
+.pink-darker-filter {
+    background-color: #c75b9b;
+}
+  
+.purple-filter {
+    background-color: #ae85ca;
+}
+  
+.blue-filter {
+    background-color: #8499e7;
+}
+  
+.blue-cyan-filter {
+    background-color: #7ecaf6;
+}
+  
+.green-filter {
+    background-color: #7bd0c1;
+}
+
+.apparition-filter {
+	& > .pink-filter {
+		opacity: 0.75;
+		&:hover {
+			opacity: 0;
+		}
+	}
+}
+
+.apparition-filter {
+	& > .blue-cyan-filter {
+		opacity: 0.75;
+		&:hover {
+			opacity: 0;
+		}
+	}
+}
+
+.apparition-filter {
+	& > .green-filter {
+		opacity: 0.75;
+		&:hover {
+			opacity: 0;
+		}
+	}
+}
+
+.apparition-filter {
+	& > .pink-darker-filter {
+		opacity: 0.75;
+		&:hover {
+			opacity: 0;
+		}
+	}
+}
+
+.apparition-filter {
+	& > .purple-filter {
+		opacity: 0.75;
+		&:hover {
+			opacity: 0;
+		}
+	}
+}
+
+.apparition-filter {
+	& > .blue-filter {
+		opacity: 0.75;
+		&:hover {
+			opacity: 0;
+		}
+	}
+}

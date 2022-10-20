@@ -2,12 +2,134 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-.disp-f {
-  display: flex;
+.computer-background {
+  background-image: url("../medias/images/pic01.jpg");
+  background-size: cover;
 }
 
-.disp-none {
-  display: none;
+.wave-background {
+  background-image: url("../medias/images/pic02.jpg");
+  background-size: cover;
+}
+
+.station-background {
+  background-image: url("../medias/images/pic03.jpg");
+  background-size: cover;
+}
+
+.man-background {
+  background-image: url("../medias/images/pic04.jpg");
+  background-size: cover;
+}
+
+.plant-background {
+  background-image: url("../medias/images/pic05.jpg");
+  background-size: cover;
+}
+
+.mountain-background {
+  background-image: url("../medias/images/pic06.jpg");
+  background-size: cover;
+}
+
+.objects-background {
+  background-image: url("../medias/images/pic07.jpg");
+  background-size: cover;
+}
+
+.city-background {
+  background-image: url("../medias/images/pic08.jpg");
+  background-size: cover;
+}
+
+.mont-background {
+  background-image: url("../medias/images/pic09.jpg");
+  background-size: cover;
+}
+
+.farm-background {
+  background-image: url("../medias/images/pic10.jpg");
+  background-size: cover;
+}
+
+.woman-background {
+  background-image: url("../medias/images/pic11.jpg");
+  background-size: cover;
+}
+
+.mansky-background {
+  background-image: url("../medias/images/pic12.jpg");
+  background-size: cover;
+}
+
+.pink-filter {
+  background-color: #f2849e;
+}
+
+.pink-darker-filter {
+  background-color: #c75b9b;
+}
+
+.purple-filter {
+  background-color: #ae85ca;
+}
+
+.blue-filter {
+  background-color: #8499e7;
+}
+
+.blue-cyan-filter {
+  background-color: #7ecaf6;
+}
+
+.green-filter {
+  background-color: #7bd0c1;
+}
+
+.apparition-filter > .pink-filter {
+  opacity: 0.75;
+}
+.apparition-filter > .pink-filter:hover {
+  opacity: 0;
+}
+
+.apparition-filter > .blue-cyan-filter {
+  opacity: 0.75;
+}
+.apparition-filter > .blue-cyan-filter:hover {
+  opacity: 0;
+}
+
+.apparition-filter > .green-filter {
+  opacity: 0.75;
+}
+.apparition-filter > .green-filter:hover {
+  opacity: 0;
+}
+
+.apparition-filter > .pink-darker-filter {
+  opacity: 0.75;
+}
+.apparition-filter > .pink-darker-filter:hover {
+  opacity: 0;
+}
+
+.apparition-filter > .purple-filter {
+  opacity: 0.75;
+}
+.apparition-filter > .purple-filter:hover {
+  opacity: 0;
+}
+
+.apparition-filter > .blue-filter {
+  opacity: 0.75;
+}
+.apparition-filter > .blue-filter:hover {
+  opacity: 0;
+}
+
+.disp-f {
+  display: flex;
 }
 
 .j-c-c {
@@ -36,6 +158,10 @@ body {
 
 .f-wrap-wrap {
   flex-wrap: wrap;
+}
+
+.disp-none {
+  display: none;
 }
 
 .gap-30px {
@@ -167,160 +293,10 @@ body {
   display: block;
 }
 
-.computer-background {
-  background-image: url("../medias/images/pic01.jpg");
-  background-size: cover;
-}
-
-.pink-filter {
-  background-color: #f2849e;
-}
-
-.apparition-filter > .pink-filter {
-  opacity: 0.75;
-}
-.apparition-filter > .pink-filter:hover {
-  opacity: 0;
-}
-
-.wave-background {
-  background-image: url("../medias/images/pic02.jpg");
-  background-size: cover;
-}
-
-.blue-cyan-filter {
-  background-color: #7ecaf6;
-}
-
-.apparition-filter > .blue-cyan-filter {
-  opacity: 0.75;
-}
-.apparition-filter > .blue-cyan-filter:hover {
-  opacity: 0;
-}
-
-.station-background {
-  background-image: url("../medias/images/pic03.jpg");
-  background-size: cover;
-}
-
-.green-filter {
-  background-color: #7bd0c1;
-}
-
-.apparition-filter > .green-filter {
-  opacity: 0.75;
-}
-.apparition-filter > .green-filter:hover {
-  opacity: 0;
-}
-
-.man-background {
-  background-image: url("../medias/images/pic04.jpg");
-  background-size: cover;
-}
-
-.pink-darker-filter {
-  background-color: #c75b9b;
-}
-
-.apparition-filter > .pink-darker-filter {
-  opacity: 0.75;
-}
-.apparition-filter > .pink-darker-filter:hover {
-  opacity: 0;
-}
-
-.plant-background {
-  background-image: url("../medias/images/pic05.jpg");
-  background-size: cover;
-}
-
-.purple-filter {
-  background-color: #ae85ca;
-}
-
-.apparition-filter > .purple-filter {
-  opacity: 0.75;
-}
-.apparition-filter > .purple-filter:hover {
-  opacity: 0;
-}
-
-.mountain-background {
-  background-image: url("../medias/images/pic06.jpg");
-  background-size: cover;
-}
-
-.blue-darker-filter {
-  background-color: #8499e7;
-}
-
-.apparition-filter > .blue-darker-filter {
-  opacity: 0.75;
-}
-.apparition-filter > .blue-darker-filter:hover {
-  opacity: 0;
-}
-
-.objects-background {
-  background-image: url("../medias/images/pic07.jpg");
-  background-size: cover;
-}
-
-.blue-cyan-filter {
-  background-color: #7ecaf6;
-}
-
-.city-background {
-  background-image: url("../medias/images/pic08.jpg");
-  background-size: cover;
-}
-
-.green-filter {
-  background-color: #7bd0c1;
-}
-
-.mont-background {
-  background-image: url("../medias/images/pic09.jpg");
-  background-size: cover;
-}
-
-.pink-filter {
-  background-color: #f2849e;
-}
-
-.farm-background {
-  background-image: url("../medias/images/pic10.jpg");
-  background-size: cover;
-}
-
-.purple-filter {
-  background-color: #ae85ca;
-}
-
-.woman-background {
-  background-image: url("../medias/images/pic11.jpg");
-  background-size: cover;
-}
-
 .social-net-box {
   border: 1px solid grey;
   border-radius: 2px;
   padding: 5px;
-}
-
-.blue-darker-filter {
-  background-color: #8499e7;
-}
-
-.mansky-background {
-  background-image: url("../medias/images/pic12.jpg");
-  background-size: cover;
-}
-
-.pink-darker-filter {
-  background-color: #c75b9b;
 }
 
 .txt-al-c {
