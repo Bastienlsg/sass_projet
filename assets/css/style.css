@@ -160,12 +160,12 @@ body {
   flex-wrap: wrap;
 }
 
-.disp-none {
-  display: none;
-}
-
 .gap-30px {
   gap: 30px;
+}
+
+.disp-none {
+  display: none;
 }
 
 .p-fixed {
@@ -278,6 +278,10 @@ body {
   border-radius: 5px;
   background-color: #3d3d3d;
 }
+.burger-icon:hover span {
+  background-color: #f2849e;
+  cursor: pointer;
+}
 
 .grow {
   transition: all 0.2s ease-in-out;
@@ -308,6 +312,19 @@ body {
   color: white;
 }
 
+.society-name:hover {
+  color: #f2849e;
+  cursor: pointer;
+}
+
+.html5up {
+  color: black;
+  border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
+}
+.html5up:hover {
+  color: #f2849e;
+}
+
 .input-d, .textarea-d {
   font-size: 18px;
   padding: 10px 10px 10px 5px;
@@ -328,6 +345,14 @@ body {
   font-weight: 900;
   color: white;
   padding: 15px;
+}
+.btn:hover {
+  background-color: #f2849e;
+  cursor: pointer;
+}
+
+li:hover {
+  cursor: pointer;
 }
 
 @media screen and (min-width: 830px) {

@@ -7,10 +7,6 @@
   display: none;
 }
 
-.gap-30px {
-  gap: 30px;
-}
-
 .p-fixed {
   position: fixed;
   z-index: 1;
@@ -114,14 +110,20 @@
 }
 
 .burger-icon {
-  span {
-    display: block;
-    margin: 5px 0;
-    width: 25px;
-    height: 2px;
-    border-radius: 5px;
-    background-color: base.$dark-color;
-  }
+	span {
+		display: block;
+		margin: 5px 0;
+		width: 25px;
+		height: 2px;
+		border-radius: 5px;
+		background-color: base.$dark-color;
+	}
+	&:hover {
+		span {
+			background-color: filter.$pink;
+			cursor: pointer;
+		}
+	}
 }
 
 .grow {
@@ -165,6 +167,21 @@
   color: white;
 }
 
+.society-name {
+	&:hover {
+		color: filter.$pink;
+		cursor: pointer;
+	}
+}
+
+.html5up {
+	color: black;
+	border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
+	&:hover {
+		color: filter.$pink;
+	}
+}
+
 .input-d, .textarea-d {
   font-size:18px;
   padding:10px 10px 10px 5px;
@@ -178,13 +195,23 @@
 }
 
 .btn {
-  width: 90vw;
-  text-align: center;
-  border: none;
-  background-color: base.$dark-color;
-  font-weight: 900;
-  color: white;
-  padding: 15px;
+	width: 90vw;
+	text-align: center;
+	border: none;
+	background-color: base.$dark-color;
+	font-weight: 900;
+	color: white;
+	padding: 15px;
+	&:hover {
+		background-color: filter.$pink;
+		cursor: pointer;
+	}
+}
+
+li {
+	&:hover {
+		cursor: pointer;
+	}
 }
 
 @media screen and (min-width: 830px) {
